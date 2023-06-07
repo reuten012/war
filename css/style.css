@@ -1,0 +1,493 @@
+@-webkit-keyframes identifier {
+  0% {
+    right: -500px;
+  }
+  100% {
+    right: 0;
+  }
+}
+@keyframes identifier {
+  0% {
+    right: -500px;
+  }
+  100% {
+    right: 0;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.918);
+}
+body .tool {
+  position: fixed;
+  z-index: 3;
+  top: 70px;
+  right: 20px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(191, 214, 212, 0.897);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: identifier 0.6s ease-in;
+          animation: identifier 0.6s ease-in;
+}
+body .tool img {
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+body .button {
+  position: fixed;
+  z-index: 1;
+  bottom: 75px;
+  right: 75px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+body .button img {
+  width: 70px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+body .cucyse {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+body .cucyse p {
+  margin-left: 20px;
+}
+body .cucyse .ok {
+  background: rgb(255, 255, 6);
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.container header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container header .logo img {
+  width: 70px;
+}
+.container header .logo .anchor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+.container header .logo .anchor a {
+  text-decoration: none;
+}
+.container header .logo .anchor a p {
+  color: white;
+}
+.container main {
+  margin-top: 70px;
+}
+.container main .intresting_plain .top p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container main .intresting_plain ul {
+  margin-top: 30px;
+}
+.container main .intresting_plain ul li {
+  color: white;
+  padding: 5px;
+}
+.container main .intresting_plain .bottom {
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_plain .bottom .prise {
+  background: rgba(191, 214, 212, 0.897);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.container main .intresting_plain .bottom .prise img {
+  width: 200px;
+  height: 135px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container main .intresting_plain .bottom .prise .shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_plain .bottom .prise .shop div h2 {
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container main .intresting_plain .bottom .prise .shop div h2:hover {
+  color: rgb(115, 109, 109);
+}
+.container main .intresting_plain .bottom .prise .shop div p {
+  margin: 10px;
+}
+.container main .intresting_plain .bottom .prise .shop .bottom {
+  width: 60px;
+}
+.container main .intresting_plain .bottom .prise .shop .bottom img {
+  width: 40px;
+  height: 40px;
+}
+.container main .intresting_BTR .top {
+  margin-top: 70px;
+}
+.container main .intresting_BTR .top p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container main .intresting_BTR .top ul {
+  margin-top: 30px;
+}
+.container main .intresting_BTR .top ul li {
+  color: white;
+  padding: 5px;
+}
+.container main .intresting_BTR .bottom {
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_BTR .bottom .prise {
+  background: rgba(191, 214, 212, 0.897);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.container main .intresting_BTR .bottom .prise img {
+  width: 200px;
+  height: 135px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container main .intresting_BTR .bottom .prise .shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_BTR .bottom .prise .shop div h2 {
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container main .intresting_BTR .bottom .prise .shop div h2:hover {
+  color: rgb(115, 109, 109);
+}
+.container main .intresting_BTR .bottom .prise .shop div p {
+  margin: 10px;
+}
+.container main .intresting_BTR .bottom .prise .shop .bottom {
+  width: 60px;
+}
+.container main .intresting_BTR .bottom .prise .shop .bottom img {
+  width: 40px;
+  height: 40px;
+}
+.container main .intresting_PVO .top {
+  margin-top: 70px;
+}
+.container main .intresting_PVO .top p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container main .intresting_PVO .top ul {
+  margin-top: 30px;
+}
+.container main .intresting_PVO .top ul li {
+  color: white;
+  padding: 5px;
+}
+.container main .intresting_PVO .bottom {
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_PVO .bottom .prise {
+  background: rgba(191, 214, 212, 0.897);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.container main .intresting_PVO .bottom .prise img {
+  width: 200px;
+  height: 135px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container main .intresting_PVO .bottom .prise .shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_PVO .bottom .prise .shop div h2 {
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container main .intresting_PVO .bottom .prise .shop div h2:hover {
+  color: rgb(115, 109, 109);
+}
+.container main .intresting_PVO .bottom .prise .shop div p {
+  margin: 10px;
+}
+.container main .intresting_PVO .bottom .prise .shop .bottom {
+  width: 60px;
+}
+.container main .intresting_PVO .bottom .prise .shop .bottom img {
+  width: 40px;
+  height: 40px;
+}
+.container main .intresting_tank .top {
+  margin-top: 70px;
+}
+.container main .intresting_tank .top p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container main .intresting_tank .top ul {
+  margin-top: 30px;
+}
+.container main .intresting_tank .top ul li {
+  color: white;
+  padding: 5px;
+}
+.container main .intresting_tank .bottom {
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_tank .bottom .prise {
+  background: rgba(191, 214, 212, 0.897);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.container main .intresting_tank .bottom .prise img {
+  width: 200px;
+  height: 135px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container main .intresting_tank .bottom .prise .shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container main .intresting_tank .bottom .prise .shop div h2 {
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.container main .intresting_tank .bottom .prise .shop div h2:hover {
+  color: rgb(115, 109, 109);
+}
+.container main .intresting_tank .bottom .prise .shop div p {
+  margin: 10px;
+  color: black;
+}
+.container main .intresting_tank .bottom .prise .shop .bottom {
+  width: 60px;
+}
+.container main .intresting_tank .bottom .prise .shop .bottom img {
+  width: 40px;
+  height: 40px;
+}
+.container footer {
+  width: 100%;
+  height: 150px;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+.container footer .left img {
+  width: 80px;
+}
+.container footer .right {
+  width: 80%;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container footer .right .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container footer .right .block a {
+  text-decoration: none;
+}
+.container footer .right .block a p {
+  color: #fff;
+  margin: 10px;
+}
+.container footer .right .right_com .top h4 {
+  color: #fff;
+}
+.container footer .right .right_com .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container footer .right .right_com .bottom a img {
+  width: 50px;
+}
+
+.shown {
+  display: none !important;
+}
